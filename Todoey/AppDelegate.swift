@@ -22,13 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String);
         
-        print(Realm.Configuration.defaultConfiguration.fileURL)
+//        print(Realm.Configuration.defaultConfiguration.fileURL)
         
         
-        
-//        let data = CategoryRealm();
-//        data.name = "Sela";
-//        data.age = 31;
 //        
         do {
             let realm = try Realm()
